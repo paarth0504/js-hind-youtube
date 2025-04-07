@@ -7,10 +7,10 @@ facebookUser.age = 23
 facebookUser.loc = "Maharashtra"
 facebookUser.id = "125689"
 
-console.log(Object.keys(facebookUser));
+// console.log(Object.keys(facebookUser));
 // console.log((Object.values(facebookUser.id)));
 // console.log((Object.entries(facebookUser)));
-console.log(facebookUser.hasOwnProperty(`idff`));
+// console.log(facebookUser.hasOwnProperty(`idff`));
 
 
 
@@ -43,6 +43,19 @@ const obj3 = {...obj1,...obj2} //Spreading objects
 // console.log(obj3);
 
 //video 17 cmplted
+
+//Destructure Of An object **** 
+
+const course = {
+    coursename: "js in hindi",
+    price: 999,
+    courseInstructor: "Parth"
+}
+
+// course.courseInstructor
+
+const{courseInstructor}=course
+console.log(courseInstructor);
 
 
 
