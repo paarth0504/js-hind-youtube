@@ -52,9 +52,51 @@ function loginUserName(identy) {
     }
     return `${identy}Just Initailze Identy`
 }
-console.log(loginUserName());
+// console.log(loginUserName());
 
 
+function calculateCartPrice(...num1) {
+    return num1
+    
+}
 
+// console.log(calculateCartPrice(500,400,600,800,955,656));
 
+const user = {
+    username : "Parth",
+    price : 156
+}
 
+function handleObject(anyuser) {
+    // console.log(`Username Is : ${anyuser.username} and Price Is : ${anyuser.price} `);
+    
+    
+}
+
+// handleObject(user)
+handleObject({
+    username : "OnlyFans",
+    price : 25
+})
+
+const myNewArray =   [500,200,250,356,12,]
+function returnSecondValue(getArray) {
+
+    return getArray[3]
+    
+}
+    // console.log(returnSecondValue(myNewArray));
+    console.log(returnSecondValue([22,33,6666,5555,44]));
+    
+
+    
+    
+
+    // const myThirdArray= [11,22,33,44]
+    // function returnThirdValue(thirdArray) {
+    //     return thirdArray[3]
+        
+    // }
+
+    // console.log(returnThirdValue(myThirdArray));
+    
