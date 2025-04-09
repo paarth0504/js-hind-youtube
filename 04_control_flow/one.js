@@ -39,5 +39,33 @@ if(balance>500) console.log("test"); // Implicit Scope
 
 // if(balance>500) console.log("test") , console.log("test 2") , console.log("test 3"); Immature Habit Of Executing The Code.
 
+// const balance2 = 1000
+// if (balance2<500) {
+//     console.log("Less Than 500");
+    
+// }else if (balance2<700){
+//     console.log("Less Than 700");
+    
+// }else {console.log("Less Than 1200");
+
+// }
+
+const userLoggedIn = true
+const debitcard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+
+if (userLoggedIn && debitcard && 2===5 ) {
+    console.log("Allow To Buy Course");
+    
+}
+
+if (loggedInFromEmail || loggedInFromGoogle) {
+    console.log("User Logged In Successfully");
+    
+}
+
+
+
 
 
