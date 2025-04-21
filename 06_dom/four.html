@@ -40,5 +40,55 @@
     //     document.querySelector('.language').appendChild(li)
     // }
     // addLanguage("BootStrap")
+
+    // function addLanguage(langName){
+    //     const li = document.createElement('li')
+    //     li.innerHTML = `${langName}`
+    //     document.querySelector('.language').appendChild(li)
+    // }
+    // addLanguage("React JS ")
+
+    // *** addding in Optimized Way
+
+    // function addOptiLanguage(langName){
+    //     const li = document.createElement('li')
+    //     li.appendChild(document.createTextNode(langName))
+    //     document.querySelector('.language').appendChild(li)
+    // }
+
+    // addOptiLanguage("More Languages")
+
+    function addLanguage(langName){
+        const li = document.createElement('li')
+        li.innerHTML= `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addLanguage(" Python")
+
+    function addOptiLanguage(langName){
+      const li = document.createElement('li')
+       li.appendChild( document.createTextNode(langName))
+       document.querySelector('.language').appendChild(li)
+    }
+    addOptiLanguage("Java")
+
+    // **** edit
+   const secondLang = document.querySelector("li:nth-child(2)")
+//    secondLang.innerHTML = "Mojo"
+
+// **** edting inn optimized way
+  const newLi =  document.createElement('li')
+  newLi.textContent= "mojo"
+  secondLang.replaceWith(newLi)
+
+  // edit
+  const firstLang = document.querySelector("li:first-child")
+  firstLang.outerHTML= '<li> TypeScript </li>'
+
+  // *** remove
+
+   const firstLang = document.querySelector('li: last-child')
+    firstLang()
 </script>
 </html>
